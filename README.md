@@ -1,4 +1,9 @@
 # Building Environment
+---
+## Download source code and submodule
+```bash
+git clone --recursive git@github.com:PaulHung1005/Project_adlink_aadp.git
+```
 ## Switch to v2.04.100-fix branch
 ```bash
 git checkout v2.04.100-fix
@@ -18,13 +23,12 @@ cd ..
 ```
 ./buildshell.sh
 ```
-
 ## Build ComHpcAlt code 
 ```bash
 . make_ComHpcAlt.sh
 ```
-
-# Building Environment
+---
+# Building Environment 
 
 # Initialize Building Environment
 
