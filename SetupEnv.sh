@@ -22,6 +22,12 @@ echo "==========================================================================
 export WORKSPACE=$(pwd)
 source edk2/edksetup.sh --reconfig
 source edk2_adlink-ampere-altra/tools/edk2.sh
+chmod +x buildshell.sh
+chmod +x make_ComHpcAlt.sh
+chmod +x make_jade.sh
+cd edk2/CryptoPkg/Library/OpensslLib
+perl process_files.pl
+cd ~/src
 echo "==========================================================================="
 echo "Ready to build !!!"
 echo "==========================================================================="
