@@ -1,3 +1,31 @@
+# Building Environment
+## Switch to v2.04.100-fix branch
+```bash
+git checkout v2.04.100-fix
+```
+## Run my setup env patch file
+```bash
+./SetupEnvsh
+```
+## Build BaseTools 
+```bash
+cd edk2
+source edksetup.sh
+make -C BaseTools
+cd ..
+```
+## Build shell
+```
+./buildshell.sh
+```
+
+## Build ComHpcAlt code 
+```bash
+. make_ComHpcAlt.sh
+```
+
+# Building Environment
+
 # Initialize Building Environment
 
 Ampere Mountain Jade code base & tools installation.
