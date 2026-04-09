@@ -28,7 +28,6 @@ chmod +x make_jade.sh
 cd edk2/CryptoPkg/Library/OpensslLib
 perl process_files.pl
 cd ~/src
-cp -f ~/src/ADlink/Project_adlink_aadp/override/edk2/CryptoPkg/Library/OpensslLib/OpensslLib.inf ~/src/ADlink/Project_adlink_aadp/edk2/CryptoPkg/Library/OpensslLib/OpensslLib.inf 
 echo "==========================================================================="
 echo "Ready to build !!!"
 echo "==========================================================================="
