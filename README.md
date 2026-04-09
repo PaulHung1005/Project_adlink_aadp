@@ -11,6 +11,7 @@ git checkout v2.04.100-fix
 ## Run my setup env patch file
 ```bash
 ./SetupEnvsh
+./CopyOverrideBeforeBuild.sh
 ```
 ## Build BaseTools 
 ```bash
