@@ -1,30 +1,34 @@
 # Building Environment
-2026-04-08
-## Download source code and submodule
+## Change Histroy
+1. 2026-04-09 : make_ComHpcAlt.sh -> Build ok.
+             make_jade.sh -> Can not build.  
+2. 2026-04-08
+## Build process --
+### 1. Download source code and submodule
 ```bash
 git clone --recursive git@github.com:PaulHung1005/Project_adlink_aadp.git
 ```
-## Switch to v2.04.100-fix branch
+### 2. Switch to v2.04.100-fix branch
 ```bash
 git checkout v2.04.100-fix
 ```
-## Run my setup env patch file
+### 3. Run my setup env patch file
 ```bash
 ./SetupEnvsh
 ./CopyOverrideBeforeBuild.sh
 ```
-## Build BaseTools 
+### 4. Build BaseTools 
 ```bash
 cd edk2
 source edksetup.sh
 make -C BaseTools
 cd ..
 ```
-## Build shell
+### 5. Build UEFI shell for Arm system
 ```
 ./buildshell.sh
 ```
-## Build ComHpcAlt code 
+### 6. Build ComHpcAlt code 
 ```bash
 . make_ComHpcAlt.sh
 ```
