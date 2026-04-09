@@ -1,8 +1,8 @@
 # Building Environment
 ## Change Histroy
-1. 2026-04-09 : make_ComHpcAlt.sh -> Build ok.
-             make_jade.sh -> Can not build.  
-2. 2026-04-08
+1. 2026-04-09 : make_ComHpcAlt.sh -> Build ok.\
+                make_jade.sh -> Can not build.\
+2. 2026-04-08 : Debug make_ComHpcAlt.sh build error and iasl tool is incorrect version.
 ## Build process --
 ### 1. Download source code and submodule
 ```bash
