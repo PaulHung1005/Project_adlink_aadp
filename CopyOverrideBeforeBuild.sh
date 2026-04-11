@@ -10,5 +10,6 @@ cd override
 #
 cp -rf edk2 ..
 cp -rf edk2-ampere-tools ..
+cp -rf edk2-platforms ..
 
 
