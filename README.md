@@ -26,12 +26,16 @@ make -C BaseTools
 cd ..
 ```
 ### 5. Build UEFI shell for Arm system
-```
+```bash
 ./buildshell.sh
 ```
 ### 6. Build ComHpcAlt code 
 ```bash
 . make_ComHpcAlt.sh
+```
+### 7. Build Mt. Jade CRB 
+```bash
+. make_jade.sh
 ```
 ---
 # Building Environment 
